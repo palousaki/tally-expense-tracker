@@ -6,8 +6,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase/client";
 import { DEFAULT_CATEGORIES } from "@/lib/categories";
+import { redirect } from "next/navigation";
 
 export default function SignupPage() {
+  redirect("/login");
+}
+
+// Signup is disabled. Original implementation preserved below.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function _OriginalSignupPage() {
   const router = useRouter();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

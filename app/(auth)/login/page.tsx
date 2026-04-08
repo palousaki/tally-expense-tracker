@@ -151,7 +151,7 @@ export default function LoginPage() {
           Google
         </button>
 
-        <p className="text-center text-sm text-gray-500 mt-5">
+        {/* <p className="text-center text-sm text-gray-500 mt-5">
           No account?{" "}
           <Link
             href="/signup"
@@ -159,7 +159,7 @@ export default function LoginPage() {
           >
             Sign up
           </Link>
-        </p>
+        </p> */}
       </div>
     </div>
   );
