@@ -16,6 +16,11 @@ npm-debug.log*
 # Prisma
 prisma/generated
 
+# TypeScript
+tsconfig.tsbuildinfo
+
 # OS
 .DS_Store
 Thumbs.db
+
+CLAUDE.md
