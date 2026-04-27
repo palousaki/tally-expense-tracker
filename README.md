@@ -2,6 +2,8 @@
 
 A personal expense tracker built with Next.js 14, Supabase, and Tailwind CSS. Track spending by category, set monthly budgets, and visualize trends — on both mobile and desktop.
 
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)](https://tally-g7bjhv1d1-palousakis-projects.vercel.app/)
+
 ## Features
 
 - **Dashboard** — monthly budget overview, spending by category, recent transactions
